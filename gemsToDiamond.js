@@ -1,4 +1,9 @@
-function check(firstFriendGems, secondFriendGems,thirdFriendGems){
+
+/*
+    This function will convert the gems to diamond according to the user's gems power. 
+*/
+
+function gemsToDiamond(firstFriendGems, secondFriendGems,thirdFriendGems){
 
     let firstFriendsGemspower = 21;
     let secondFriendsGemspower = 32;
@@ -22,6 +27,6 @@ function check(firstFriendGems, secondFriendGems,thirdFriendGems){
     }
 }
 
-console.log(check(20,200,50));
-console.log(check(100,5,1));
-console.log(check(false,"azad",1));
+console.log(gemsToDiamond(20,200,50));
+console.log(gemsToDiamond(100,5,1));
+console.log(gemsToDiamond(false,"azad",1));

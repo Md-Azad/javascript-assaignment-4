@@ -1,4 +1,6 @@
-
+/*
+    This findingBadData funtion receives an array and return the number of element with negative value.
+*/
 
 const data = [-4,-9,-5,-33,-55];
 
