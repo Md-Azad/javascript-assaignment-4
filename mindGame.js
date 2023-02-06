@@ -1,7 +1,7 @@
 // mind game
 
 function mindGame(number){
-    if((typeof number)===false){
+    if(typeof number !== 'number'){
         return "Please insert a number";
     }
     else{
@@ -9,4 +9,4 @@ function mindGame(number){
         return result;
     }
 }
-console.log(mindGame(33));
+console.log(mindGame(5));
